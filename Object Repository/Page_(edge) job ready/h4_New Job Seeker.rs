@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_New Job Seeker</name>
+   <tag></tag>
+   <elementGuidId>c2e80770-12bf-49b3-b372-7896f7fb0037</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.modal-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-modal']/div/div/div/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>418f3713-8659-41bc-9f70-c3df78625d2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-title</value>
+      <webElementGuid>cdee025d-616f-48be-bba3-88f0ea82b2f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Job Seeker</value>
+      <webElementGuid>c389d081-8374-4960-8f89-3d104d05548a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-modal&quot;)/div[@class=&quot;modal-dialog wide-modal ui-draggable&quot;]/div[@class=&quot;jobseekers live modal-content new&quot;]/div[@class=&quot;modal-header ui-draggable-handle&quot;]/h4[@class=&quot;modal-title&quot;]</value>
+      <webElementGuid>bd7b3996-def9-4028-a282-04718539cf23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-modal']/div/div/div/h4</value>
+      <webElementGuid>7e3b9216-5ce7-4a5f-a12b-7a0171714e28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>44916921-e501-4a5b-a812-e461b24cf8d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'New Job Seeker' or . = 'New Job Seeker')]</value>
+      <webElementGuid>42e95458-a8dc-43c8-8faf-0847a05f9456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

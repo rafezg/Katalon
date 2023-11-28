@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Jobseeker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58b75640-c28e-4e06-bac9-816a4aaa33f5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aecf5408-fedc-4e7a-b815-d6f1e2c6fc33</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rand'</defaultValue>
+      <description></description>
+      <id>aecf5408-fedc-4e7a-b815-d6f1e2c6fc33</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
