@@ -27,8 +27,8 @@ WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/a_New Job Se
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Jobseeker Modal', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_(edge) job ready/select_ACEActive but no site managerAdams-B_054971'), 
-    '1755', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ACEActive but no site managerAdams-B_054971'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekeress_identifier'), CustomKeywords.'com.RandomNumber.CreateRandomNumber'())
 
@@ -36,14 +36,14 @@ WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobs
 
 WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekerlast_name'), CustomKeywords.'com.RandomLastName.CreateRandomLastName'())
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
-    '', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
-    '40', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_(edge) job ready/select_Allied Health ProviderConsultant Rep_da6cb8'), 
-    '13', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_Allied Health ProviderConsultant Rep_da6cb8'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/input_commit'))
 
