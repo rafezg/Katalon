@@ -47,7 +47,7 @@ public class RandomNumber {
 	@Keyword
 	def CreateRandomNumber(def state) {
 		Date todaysDate = new Date();
-		def formattedDate = todaysDate.format("ddMMyyyyHHMMss");
+		def formattedDate = todaysDate.format("yyyyMMddHHmmss");
 		return (formattedDate)
 	}
 }
