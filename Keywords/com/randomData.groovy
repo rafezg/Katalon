@@ -40,8 +40,8 @@ public class ClearField {
 }
 
 
-// Used for creating a Random Specialty at runtime
-// Ian Fraser 6/12/2021
+// Used for creating a Random numbers using current date and time at runtime
+
 public class RandomNumber {
 
 	@Keyword
@@ -53,7 +53,7 @@ public class RandomNumber {
 }
 
 // Used for creating a Random last name at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomLastName {
 
 	@Keyword
@@ -72,7 +72,7 @@ public class RandomLastName {
 }
 
 // Used for creating a Random Australian state at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomState {
 
 	@Keyword
@@ -91,7 +91,7 @@ public class RandomState {
 }
 
 // Used for creating a Random Australian city at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomCity {
 
 	@Keyword
@@ -110,7 +110,7 @@ public class RandomCity {
 }
 
 // Used for creating a Random Australian street at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomStreet {
 
 	@Keyword
@@ -129,7 +129,7 @@ public class RandomStreet {
 }
 
 // Used for creating a Random Australian street at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomCountry {
 
 	@Keyword
@@ -148,7 +148,7 @@ public class RandomCountry {
 }
 
 // Used for creating a Random Australian street at runtime
-// Ian Fraser 6/12/2021
+
 public class RandomPhrase {
 
 	@Keyword
