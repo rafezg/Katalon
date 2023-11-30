@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0e36d3af-44a0-4acd-84eb-4622d2e81219</testSuiteGuid>
    <testCaseLink>
-      <guid>47cc79d4-64ad-4e07-a432-d685c0680ced</guid>
+      <guid>333025c0-45c0-42eb-9c50-7fe1923a9987</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login</testCaseId>
+      <testCaseId>Test Cases/Reusables/reusbable_login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -30,5 +30,12 @@
          <value></value>
          <variableId>aecf5408-fedc-4e7a-b815-d6f1e2c6fc33</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c27c19ad-1a3f-4b5f-a082-e509de265099</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reusables/reusable_close</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

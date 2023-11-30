@@ -21,9 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Login Screen', FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_useremail'), GlobalVariable.EmailAddress)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_(edge) job ready/input_userpassword'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/input_commit'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Landing Page')
 

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusables/reusbable_login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_(edge) job ready/div_ProfileSettingsLogoutAlertsDES AlertsDa_ad5c5d'))
 
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/span_Job Seekers'))
@@ -48,6 +46,4 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job read
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/input_commit'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Jobseeker Showpage', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
 
