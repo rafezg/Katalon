@@ -1,4 +1,4 @@
-package com
+package customKeywords
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -30,25 +30,22 @@ public class RandomName {
 	}
 }
 
-public class ClearField {
-
-	@Keyword
-	def FieldName(def arg) {
-		WebUI.sendKeys(findTestObject(arg), Keys.chord(Keys.CONTROL, 'a')) "Only works on date fields"
-		WebUI.sendKeys(findTestObject(arg), Keys.chord(Keys.BACK_SPACE)) "Only works on date fields"
-	}
-}
-
 
 // Used for creating a Random numbers using current date and time at runtime
 
 public class RandomNumber {
 
-	@Keyword
-	def CreateRandomNumber(def state) {
+	
+	def static String CreateRandomNumber(def state) {
 		Date todaysDate = new Date();
 		def formattedDate = todaysDate.format("ddMMyyyyHHMMss");
 		return (formattedDate)
+	}
+	
+	@Keyword
+	def static void assignRandomIDToInput(TestObject inputObject) {
+		String randomID = CreateRandomNumber()
+		WebUI.setText(inputObject, randomID)
 	}
 }
 
@@ -56,8 +53,7 @@ public class RandomNumber {
 
 public class RandomLastName {
 
-	@Keyword
-	def CreateRandomLastName(def state) {
+	def static String CreateRandomLastName(def state) {
 		Random rand = new Random()
 		List<String> givenList = Arrays.asList("Jones", "Smith", "Fraser", "Duck", "Micky", "Vader", "Skywalker", "Abood", "Walsh", "Yoda", "Johnson")
 
@@ -68,6 +64,12 @@ public class RandomLastName {
 			String randomElement = givenList.get(randomIndex)
 			return (randomElement)
 		}
+	}
+	
+	@Keyword
+	def static void assignRandomLastNameToInput(TestObject inputObject) {
+		String randomLastName = CreateRandomLastName()
+		WebUI.setText(inputObject, randomLastName)
 	}
 }
 

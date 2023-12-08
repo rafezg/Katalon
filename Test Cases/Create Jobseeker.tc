@@ -9,13 +9,26 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>aecf5408-fedc-4e7a-b815-d6f1e2c6fc33</variableId>
+      <variableId>111b64a1-0358-46af-bb23-6f538c91e8d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>SCRIPT_VARIABLE</type>
+      <value>null</value>
+      <variableId>a8582538-f8f5-476f-863b-e287dab53b25</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'rand'</defaultValue>
+      <defaultValue>null</defaultValue>
       <description></description>
-      <id>aecf5408-fedc-4e7a-b815-d6f1e2c6fc33</id>
+      <id>111b64a1-0358-46af-bb23-6f538c91e8d5</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>randomNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>a8582538-f8f5-476f-863b-e287dab53b25</id>
+      <masked>false</masked>
+      <name>randomLastName</name>
    </variable>
 </TestCaseEntity>

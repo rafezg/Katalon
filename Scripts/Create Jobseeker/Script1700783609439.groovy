@@ -28,11 +28,13 @@ WebUI.takeFullPageScreenshotAsCheckpoint('Jobseeker Modal', FailureHandling.STOP
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ACEActive but no site managerAdams-B_054971'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekeress_identifier'), CustomKeywords.'com.RandomNumber.CreateRandomNumber'())
+CustomKeywords.'customKeywords.RandomNumber.assignRandomIDToInput'(findTestObject('Page_(edge) job ready/input_jobseekeress_identifier'))
 
 WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekerfirst_name'), 'Katalon')
 
-WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekerlast_name'), CustomKeywords.'com.RandomLastName.CreateRandomLastName'())
+CustomKeywords.'customKeywords.RandomLastName.assignRandomLastNameToInput'(findTestObject('Page_(edge) job ready/input_jobseekerlast_name'))
+
+WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekerlast_name'), CustomKeywords.'customKeywords.RandomLastName.CreateRandomLastName'())
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
     '1', FailureHandling.STOP_ON_FAILURE)

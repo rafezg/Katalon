@@ -1,0 +1,190 @@
+{
+  "keywordFileContentHash": "9F9FE9EEE03ABDFA0AB895F03DC04A46",
+  "keywordClasses": [
+    {
+      "name": "customKeywords.RandomName",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomNumber",
+      "keywordMethods": [
+        {
+          "name": "assignRandomIDToInput",
+          "parameters": [
+            {
+              "name": "inputObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomLastName",
+      "keywordMethods": [
+        {
+          "name": "assignRandomLastNameToInput",
+          "parameters": [
+            {
+              "name": "inputObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomState",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomState",
+          "parameters": [
+            {
+              "name": "state",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomCity",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomCity",
+          "parameters": [
+            {
+              "name": "city",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomStreet",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomStreet",
+          "parameters": [
+            {
+              "name": "street",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomCountry",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomCountry",
+          "parameters": [
+            {
+              "name": "street",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "customKeywords.RandomPhrase",
+      "keywordMethods": [
+        {
+          "name": "CreateRandomPhrase",
+          "parameters": [
+            {
+              "name": "street",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
