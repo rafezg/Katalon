@@ -34,8 +34,6 @@ WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobs
 
 CustomKeywords.'customKeywords.RandomLastName.assignRandomLastNameToInput'(findTestObject('Page_(edge) job ready/input_jobseekerlast_name'))
 
-WebUI.setText(findTestObject('Object Repository/Page_(edge) job ready/input_jobseekerlast_name'), CustomKeywords.'customKeywords.RandomLastName.CreateRandomLastName'())
-
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_(edge) job ready/select_ABCCCAdvertised VacancyAllied Health_dcf632'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
