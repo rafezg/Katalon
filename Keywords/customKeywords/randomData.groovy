@@ -35,13 +35,13 @@ public class RandomName {
 
 public class RandomNumber {
 
-	
+
 	def static String CreateRandomNumber(def state) {
 		Date todaysDate = new Date();
 		def formattedDate = todaysDate.format("ddMMyyyyHHMMss");
 		return (formattedDate)
 	}
-	
+
 	@Keyword
 	def static void assignRandomIDToInput(TestObject inputObject) {
 		String randomID = CreateRandomNumber()
@@ -65,7 +65,7 @@ public class RandomLastName {
 			return (randomElement)
 		}
 	}
-	
+
 	@Keyword
 	def static void assignRandomLastNameToInput(TestObject inputObject) {
 		String randomLastName = CreateRandomLastName()
